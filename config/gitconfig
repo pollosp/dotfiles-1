@@ -1,8 +1,8 @@
 [user]
-  email = josacar@users.noreply.github.com
-  name = Jose Luis Salas
+  email = pollosp@users.noreply.github.com
+  name = Omar Lopez
 [github]
-  user = josacar
+  user = pollosp
 [core]
   pager = less -FRSX
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
