@@ -1,6 +1,7 @@
 [user]
   email = pollo.es.pollo@gmail.com
   name = pollosp
+	signingkey = F3F0C293949BA96C
 [github]
   user = pollosp
 [core]
@@ -81,3 +82,5 @@
 [mergetool "diffmerge"]
   cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
   trustExitCode = true
+[commit]
+	gpgsign = true
